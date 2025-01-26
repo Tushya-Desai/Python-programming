@@ -1,0 +1,43 @@
+a=int(input("Enter a number between 0 to 19:"))
+if(a==0):
+    print("Zero")
+if(a==1):
+    print("One")
+if(a==2):
+    print("Two")
+if(a==3):
+    print("Three")
+if(a==4):
+    print("Four")
+if(a==5):
+    print("Five")
+if(a==6):
+    print("Six")
+if(a==7):
+    print("Seven")
+if(a==8):
+    print("Eight")
+if(a==9):
+    print("Nine")
+if(a==10):
+    print("Ten")
+if(a==11):
+    print("Eleven")
+if(a==12):
+    print("Twelve")
+if(a==13):
+    print("Thirteen")
+if(a==14):
+    print("Fourteen")
+if(a==15):
+    print("Fifteen")
+if(a==16):
+    print("Sixteen")
+if(a==17):
+    print("Seventeen")
+if(a==18):
+    print("Eighteen")
+if(a==19):
+    print("Nineteen")
+if(a==20):
+    print("Twenty")

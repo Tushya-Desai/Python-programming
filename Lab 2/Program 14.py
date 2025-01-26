@@ -1,0 +1,89 @@
+a=int(input("Enter marks of 1st subject:"))
+b=int(input("Enter marks of 2nd subject:"))
+c=int(input("Enter marks of 3rd subject:"))
+total=a+b+c
+avg=total/3
+if(a>=80):
+    print("Pass")
+    print("Grade=O")
+elif(a>=70):
+    print("Pass")
+    print("Grade=A+")
+elif(a>=60):
+    print("Pass")
+    print("Grade=A")
+elif(a>=55):
+    print("Pass")
+    print("Grade=B+")
+elif(a>=50):
+    print("Pass")
+    print("Grade=B")
+elif(a>=45):
+    print("Pass")
+    print("Grade=C")
+elif(a>=40):
+    print("Pass")
+    print("Grade=P")
+elif(a>=0):
+    print("Fail")
+    print("Grade=F")
+else:
+    print("Marks not possible")
+if(b>=80):
+    print("Pass")
+    print("Grade=O")
+elif(b>=70):
+    print("Pass")
+    print("Grade=A+")
+elif(b>=60):
+    print("Pass")
+    print("Grade=A")
+elif(b>=55):
+    print("Pass")
+    print("Grade=B+")
+elif(b>=50):
+    print("Pass")
+    print("Grade=B")
+elif(b>=45):
+    print("Pass")
+    print("Grade=C")
+elif(b>=40):
+    print("Pass")
+    print("Grade=P")
+elif(b>=0):
+    print("Fail")
+    print("Grade=F")
+else:
+    print("Marks not possible")
+if(c>=80):
+    print("Pass")
+    print("Grade=O")
+elif(c>=70):
+    print("Pass")
+    print("Grade=A+")
+elif(c>=60):
+    print("Pass")
+    print("Grade=A")
+elif(c>=55):
+    print("Pass")
+    print("Grade=B+")
+elif(c>=50):
+    print("Pass")
+    print("Grade=B")
+elif(c>=45):
+    print("Pass")
+    print("Grade=C")
+elif(c>=40):
+    print("Pass")
+    print("Grade=P")
+elif(c>=0):
+    print("Fail")
+    print("Grade=F")
+else:
+    print("Marks not possible")
+if(avg<=39):
+    print("Overall=Fail")
+else:
+    print("Overall=Pass")
+print("Total=",total)
+print("Average=",avg)
