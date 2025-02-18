@@ -1,0 +1,9 @@
+a=("Mango","Kiwi","Bengan","Krow","5678","Savar")
+print("The original tuple is =",a)
+a=list(a)
+b=input("Enter a element you want to modify:")
+c=input("Enter the modified element:")
+i=a.index(b)
+a[i]=c
+a=tuple(a)
+print("The end tuple is =",a)
