@@ -1,0 +1,7 @@
+num=input("Enter your number :+91 ")
+email=input("Enter your email:")
+fp=open("C:\Semester 2\Computer(Python)\Lab 10\Myfile3.csv",'w')
+fp.write("Email="+email)
+fp.write("\n Phone Number="+num)
+print("Your Record have been saved successfully")
+fp.close()
